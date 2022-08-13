@@ -1,0 +1,145 @@
+// .advantage-section {
+//     padding-top: 94px;
+//     padding-bottom: 0px;
+// }
+
+// .advantage-section__item {
+//     flex-basis: 270px;
+
+//     &:not(:last-child) {
+//         margin-right: 30px;
+//     }
+// }
+
+// .advantage-section__box {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     width: 270px;
+//     height: 120px;
+//     background-color: #F5F4FA;
+// }
+
+
+// .advantage-section__list {
+//     display: flex;
+
+//     @extend %list;
+// }
+
+// .advantage-section__subtitle {
+//     padding-left: 0;
+//     margin-top: 30px;
+//     margin-bottom: 10px;
+
+//     color: var(--title-text-color);
+//     font-size: var(--fontsize-main);
+//     line-height: 1.14;
+//     text-transform: uppercase;
+// }
+
+// .advantage-section__text {
+//     font-size: var(--fontsize-main);
+//     line-height: 1.71;
+// }
+
+// Mobile first
+
+.advantage-section {
+    padding-top: 60px;
+    padding-bottom: 0;
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 0;
+    }
+}
+
+.advantage-section__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 120px;
+    background-color: #F5F4FA;
+
+    @media screen and (min-width: 768px) {
+        width: 354px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 270px;
+    }
+
+}
+
+.advantage-section__list {
+    @extend %list;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -30px;
+        margin-top: -30px;
+        justify-content: center;
+
+
+    }
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+
+    }
+}
+
+.advantage-section__subtitle {
+    padding-left: 0;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+
+    font-size: var(--fontsize-main);
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+
+    @media screen and (min-width: 768px) {
+        text-align: left;
+    }
+}
+
+.advantage-section__item {
+    width: 450px;
+
+    @media screen and (min-width: 768px) {
+        width: 354px;
+
+    }
+
+
+
+    &:not(:last-child) {
+        margin-right: 30px;
+
+        @media screen and (min-width: 1200px) {
+            margin-bottom: 30px;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 354px;
+
+
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 270px;
+
+    }
+}
+
+.advantage-section__text {
+    font-size: var(--fontsize-main);
+    line-height: 1.71;
+}

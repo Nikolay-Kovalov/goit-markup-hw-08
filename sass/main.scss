@@ -1,0 +1,38 @@
+// Utils styles 
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+@import "./utils/placeholder";
+
+// Base styles
+@import "./base/base";
+@import "./base/reset";
+
+// Components styles
+@import "./components/container";
+@import "./components/title";
+@import "./components/buttons";
+@import "./components/backdrop";
+@import "./components/modal";
+@import "./components/register-form";
+@import "./components/footer-form";
+@import "./components/icon-set";
+@import "./components/grid";
+@import "./components/thumb";
+
+
+
+
+// Layout styles
+@import "./layout/header";
+@import "./layout/logo";
+@import "./layout/nav";
+@import "./layout/contacts";
+@import "./layout/hero";
+@import "./layout/advantage-section";
+@import "./layout/work-section";
+@import "./layout/team-section";
+@import "./layout/clients-section";
+@import "./layout/footer";
+@import "./layout/address";
+@import "./layout/join-section";
+@import "./layout/examples";

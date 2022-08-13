@@ -1,0 +1,55 @@
+.logo {
+    @extend %link;
+
+    font-family: Raleway, sans-serif;
+    font-weight: var(--fontweight-main);
+    font-size: 26px;
+    line-height: 1.19;
+
+
+}
+
+.logo-wrapper {
+    @media screen and (min-width: 768px) {
+        margin-right: 50px;
+        width: 145px;
+        padding-top: 24px;
+        padding-bottom: 25px;
+    }
+
+
+    @media screen and (min-width: 1200px) {
+        margin-right: 93px;
+        width: 145px;
+        padding-top: 24px;
+        padding-bottom: 25px;
+    }
+
+}
+
+.logo__web {
+    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: var(--fontweight-main);
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo--black {
+    color: #000000;
+}
+
+.logo-box {
+    text-align: center;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+}
+
+.logo--white {
+    color: #FFFFFF;
+}

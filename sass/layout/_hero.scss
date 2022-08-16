@@ -37,7 +37,7 @@
 
 .hero__title {
     @media screen and (min-width: 480px) {
-        width: 360px;
+
         font-weight: 900;
         font-size: 26px;
         line-height: 1.62px;
@@ -49,7 +49,7 @@
 
 
     @media screen and (min-width: 1200px) {
-        width: 696px;
+        max-width: 696px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 30px;

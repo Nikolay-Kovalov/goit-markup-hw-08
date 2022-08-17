@@ -26,6 +26,7 @@
 
     @media screen and (min-width: 1200px) {
         flex-basis: 270px;
+        margin-bottom: 0px;
 
 
         &:not(:last-child) {
@@ -89,4 +90,9 @@
 .team-section__image {
     @extend %image;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 0;
+    }
+
 }

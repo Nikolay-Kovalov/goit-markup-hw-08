@@ -81,15 +81,14 @@
     @media screen and (min-width: 768px) {
         display: flex;
         flex-wrap: wrap;
-
-
-
+        gap: 30px;
 
     }
 
     @media screen and (min-width: 1200px) {
         display: flex;
         justify-content: center;
+        gap: 0px;
 
     }
 }
@@ -115,25 +114,15 @@
     max-width: 450px;
 
     @media screen and (min-width: 768px) {
-        width: 354px;
-
-
+        flex-basis: calc((100% - 1 * 30px) / 2);
     }
 
     @media screen and (min-width: 1200px) {
-        width: 270px;
+        flex-basis: 270px;
     }
 
 
     &:not(:last-child) {
-
-        @media screen and (max-width: 1199px) {
-            margin-bottom: 30px;
-        }
-
-        @media screen and (min-width: 768px) {
-            margin-right: 30px;
-        }
 
         @media screen and (min-width: 1200px) {
             margin-bottom: 0;

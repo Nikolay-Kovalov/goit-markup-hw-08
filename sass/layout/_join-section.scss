@@ -1,12 +1,18 @@
 .join-section {
-    padding-top: 12px;
+    @media screen and (min-width: 1200px) {
+        padding-top: 12px;
+    }
+
 }
 
 .join-section__title {
-    margin-bottom: 20px;
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 20px;
 
-    color: #FFFFFF;
-    font-size: var(--fontsize-main);
-    line-height: 1.14;
-    text-transform: uppercase;
+        color: #FFFFFF;
+        font-size: var(--fontsize-main);
+        line-height: 1.14;
+        text-transform: uppercase;
+    }
+
 }

@@ -1,8 +1,13 @@
 .footer-form {
+    @media screen and (max-width: 1199px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
     @media screen and (min-width: 1200px) {
         margin-left: 109px;
-
     }
 
 }

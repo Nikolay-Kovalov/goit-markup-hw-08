@@ -1,9 +1,18 @@
 .page-headder {
+
     background-color: var(--background-header);
     border-bottom: 1px solid #ECECEC;
+
+
 }
 
 .headder-wrapper {
+    height: 60px;
     display: flex;
-    align-items: center;
+    align-items: baseline;
+
+    @media screen and (min-width: 768px) {
+        height: 80px;
+        align-items: center;
+    }
 }

@@ -150,7 +150,7 @@ p {
   }
 }
 
-.menu-container .is-open {
+.menu-container.is-open {
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
@@ -174,7 +174,7 @@ p {
 }
 
 .page-nav {
-  margin-bottom: 240px;
+  margin-bottom: 302px;
 }
 
 .page-nav__item:not(:last-child) {
@@ -691,8 +691,6 @@ p {
 .footer__button {
   position: relative;
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 29px;
@@ -800,7 +798,6 @@ p {
 
 .grid__item {
   width: 450px;
-  margin-bottom: 30px;
   -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);

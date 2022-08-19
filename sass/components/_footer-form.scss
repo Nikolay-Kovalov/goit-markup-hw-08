@@ -1,4 +1,5 @@
 .footer-form {
+
     @media screen and (min-width: 1200px) {
         margin-left: 109px;
     }
@@ -13,6 +14,8 @@
 }
 
 .footer-label__heading {
+
+
     @media screen and (min-width: 1200px) {
         display: block;
         margin-bottom: 20px;
@@ -21,7 +24,6 @@
         font-size: var(--fontsize-main);
         line-height: calc(16 / 14);
         text-transform: uppercase;
-
         color: #FFFFFF;
     }
 

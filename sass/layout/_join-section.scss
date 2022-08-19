@@ -1,6 +1,9 @@
 .join-section {
+    margin-bottom: 60px;
+
     @media screen and (min-width: 1200px) {
         padding-top: 12px;
+        margin-bottom: 0px;
     }
 
 }
@@ -15,7 +18,7 @@
 
     @media screen and (min-width: 1200px) {
         margin-bottom: 20px;
-
+        text-align: left;
         color: #FFFFFF;
         font-size: var(--fontsize-main);
         line-height: 1.14;

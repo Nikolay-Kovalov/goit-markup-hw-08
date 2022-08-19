@@ -19,3 +19,18 @@
 
 
 }
+
+.wrapper {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        gap: 165px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    }
+
+
+}

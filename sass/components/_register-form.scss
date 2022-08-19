@@ -123,17 +123,33 @@
 }
 
 .form-checkbox__heading {
-    font-size: var(--fontsize-main);
-    line-height: 1.71px;
+    font-size: 12px;
+    line-height: calc(14 / 12);
     color: #757575;
     user-select: none;
+
+    @media screen and (min-width: 1200px) {
+        font-size: var(--fontsize-main);
+        line-height: 1.71px;
+        color: #757575;
+        user-select: none;
+    }
+
 }
 
 .form-checkbox__link {
-    font-size: var(--fontsize-main);
-    line-height: 1.71px;
+    font-size: 12px;
+    line-height: calc(14 / 12);
     text-decoration-line: underline;
     color: var(--accent-color);
+
+    @media screen and (min-width: 1200px) {
+        font-size: var(--fontsize-main);
+        line-height: 1.71px;
+        text-decoration-line: underline;
+        color: var(--accent-color);
+    }
+
 }
 
 .form__button {

@@ -11,9 +11,6 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
     padding: 48px 40px;
 
-
-
-
     transform: translateX(100%);
 
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -45,6 +42,15 @@
     @media screen and (min-width: 768px) {
         display: none;
     }
+
+}
+
+.menu-toggle--cross {
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 0px;
+    top: 0;
+    right: 0;
 
 }
 
@@ -83,9 +89,6 @@
 
     display: flex;
     flex-wrap: wrap;
-
-
-
 
 }
 
@@ -154,7 +157,6 @@
 }
 
 .button-menu__cross {
-
     position: absolute;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 

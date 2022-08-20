@@ -64,6 +64,68 @@
       </div>
     </header>
     <main>
+      <div class="menu-container js-menu-container" id="mobile-menu">
+        <button
+          class="menu-toggle menu-toggle--cross js-close-menu"
+          type="button"
+          aria-label="Переключатель мобильного меню"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="" width="18" height="18">
+            <use
+              class="button-menu__cross"
+              href="./images/icons.svg#icon-close-black"
+            ></use>
+          </svg>
+        </button>
+        <div class="mobile-menu">
+          <ul class="page-nav">
+            <li class="page-nav__item">
+              <a
+                href="./index.html"
+                class="current--mobile page-nav__link page-nav__link--studio"
+                >Студия</a
+              >
+            </li>
+            <li class="page-nav__item">
+              <a href="./portfolio.html" class="page-nav__link">Портфолио</a>
+            </li>
+            <li class="page-nav__item">
+              <a href="" class="page-nav__link">Контакты</a>
+            </li>
+          </ul>
+          <ul class="contacts-nav">
+            <li class="contacts-nav__item">
+              <a href="tel:+380961111111" class="contacts-nav__link">
+                +38 096 111 11 11</a
+              >
+            </li>
+            <li class="contacts-nav__item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="contacts-nav__link contacts-nav__link--grey"
+              >
+                info@devstudio.com
+              </a>
+            </li>
+          </ul>
+          <ul class="social-nav">
+            <li class="social-nav__item">
+              <a href="" class="social-nav__link">Instagram</a>
+            </li>
+            <li class="social-nav__item">
+              <a href="" class="social-nav__link">Twitter</a>
+            </li>
+            <li class="social-nav__item">
+              <a href="" class="social-nav__link">Facebook</a>
+            </li>
+            <li class="social-nav__item">
+              <a href="" class="social-nav__link">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </div>
       <!-- Work examples section -->
       <!-- Filters -->
       <section class="examples">

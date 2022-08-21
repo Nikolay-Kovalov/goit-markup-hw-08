@@ -1342,6 +1342,12 @@ p {
   }
 }
 
+@media screen and (max-width: 1199px) {
+  .title--mobile {
+    margin-bottom: 30px;
+  }
+}
+
 .team-section__item {
   max-width: 450px;
   margin-bottom: 30px;
@@ -1377,12 +1383,14 @@ p {
   line-height: 1.19;
   text-align: center;
 }
+
 .card-content__text {
   margin-bottom: 16px;
   font-size: var(--fontsize-secondary);
   line-height: 1.19;
   text-align: center;
 }
+
 .card-content {
   max-width: 450px;
   padding-bottom: 24px;

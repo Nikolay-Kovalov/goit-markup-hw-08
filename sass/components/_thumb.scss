@@ -47,11 +47,14 @@
 .thumb__overflow-text {
 
     position: absolute;
-    max-width: 402px;
-    top: 63px;
-    right: 24px;
-    left: 24px;
-    bottom: 173px;
+    width: 100%;
+    height: 100%;
+    padding-top: 77px;
+    padding-bottom: 77px;
+    padding-left: 24px;
+    padding-right: 24px;
+    top: 0;
+    left: 0;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.56;
@@ -68,12 +71,12 @@
 
 
     @media screen and (min-width: 768px) {
-        position: absolute;
-        max-width: 306px;
-        top: 63px;
-        right: 24px;
-        left: 24px;
-        bottom: 173px;
+
+        padding-top: 49px;
+        padding-bottom: 77px;
+        padding-left: 24px;
+        padding-right: 24px;
+
         font-weight: 400;
         font-size: 18px;
         line-height: 1.56;
@@ -90,12 +93,12 @@
     }
 
     @media screen and (min-width: 1200px) {
-        position: absolute;
-        width: 322px;
-        top: 63px;
-        right: 24px;
-        left: 24px;
-        bottom: 173px;
+
+        padding-top: 63px;
+        padding-bottom: 63px;
+        padding-left: 24px;
+        padding-right: 24px;
+
         font-weight: 400;
         font-size: 18px;
         line-height: 1.56;

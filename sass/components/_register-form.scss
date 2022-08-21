@@ -127,6 +127,7 @@
     line-height: calc(14 / 12);
     color: #757575;
     user-select: none;
+    letter-spacing: 0.03em;
 
     @media screen and (min-width: 1200px) {
         font-size: var(--fontsize-main);

@@ -154,6 +154,17 @@ p {
   }
 }
 
+.mobile-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
 .menu-container.is-open {
   -webkit-transform: translateX(0);
           transform: translateX(0);
@@ -236,6 +247,14 @@ p {
   color: #757575;
 }
 
+.social-nav__item:not(:last-child) {
+  padding-right: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+.social-nav__item:not(:first-child) {
+  padding-left: 10px;
+}
+
 .social-nav__link {
   font-family: "Roboto";
   font-style: normal;
@@ -243,15 +262,7 @@ p {
   font-size: 18px;
   line-height: 1.2222222222;
   letter-spacing: 0.02em;
-  padding-left: 10px;
   color: var(--accent-color);
-}
-.social-nav__link:not(:last-child) {
-  padding-right: 10px;
-  border-right: 1px solid rgba(33, 33, 33, 0.2);
-}
-.social-nav__link:not(:first-child) {
-  padding-left: 10px;
 }
 
 .current--mobile {
@@ -293,6 +304,7 @@ p {
   background-color: #FFFFFF;
   -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow-y: auto;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%) scale(1) rotate(0);
@@ -546,6 +558,7 @@ p {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  letter-spacing: 0.03em;
 }
 @media screen and (min-width: 1200px) {
   .form-checkbox__heading {
@@ -917,11 +930,14 @@ p {
 
 .thumb__overflow-text {
   position: absolute;
-  max-width: 402px;
-  top: 63px;
-  right: 24px;
-  left: 24px;
-  bottom: 173px;
+  width: 100%;
+  height: 100%;
+  padding-top: 77px;
+  padding-bottom: 77px;
+  padding-left: 24px;
+  padding-right: 24px;
+  top: 0;
+  left: 0;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
@@ -941,12 +957,10 @@ p {
 }
 @media screen and (min-width: 768px) {
   .thumb__overflow-text {
-    position: absolute;
-    max-width: 306px;
-    top: 63px;
-    right: 24px;
-    left: 24px;
-    bottom: 173px;
+    padding-top: 49px;
+    padding-bottom: 77px;
+    padding-left: 24px;
+    padding-right: 24px;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.56;
@@ -967,12 +981,10 @@ p {
 }
 @media screen and (min-width: 1200px) {
   .thumb__overflow-text {
-    position: absolute;
-    width: 322px;
-    top: 63px;
-    right: 24px;
-    left: 24px;
-    bottom: 173px;
+    padding-top: 63px;
+    padding-bottom: 63px;
+    padding-left: 24px;
+    padding-right: 24px;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.56;

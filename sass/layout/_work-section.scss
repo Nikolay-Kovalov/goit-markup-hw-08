@@ -7,18 +7,14 @@
     }
 }
 
-
 .work-section__list {
     @extend %list;
 
-
     display: flex;
     justify-content: center;
-
 }
 
 .work-section__item {
-
     position: relative;
     flex-basis: 370px;
 

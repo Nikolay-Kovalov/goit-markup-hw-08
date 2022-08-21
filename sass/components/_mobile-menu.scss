@@ -34,7 +34,6 @@
 }
 
 .menu-toggle {
-
     margin-top: 10px;
     margin-left: auto;
     position: relative;
@@ -46,12 +45,9 @@
     background-color: #FFFFFF;
     cursor: pointer;
 
-
-
     @media screen and (min-width: 768px) {
         display: none;
     }
-
 }
 
 .menu-toggle--cross {
@@ -62,14 +58,12 @@
     margin-top: 0px;
     top: 0;
     right: 0;
-
 }
 
 .page-nav {
     @extend %list;
     margin-top: 0px;
     margin-bottom: auto;
-
 }
 
 .page-nav__item {
@@ -86,13 +80,10 @@
     }
 }
 
-
 .contacts-nav {
     @extend %list;
 
     margin-bottom: 64px;
-
-
 }
 
 .social-nav {
@@ -100,7 +91,6 @@
 
     display: flex;
     flex-wrap: wrap;
-
 }
 
 
@@ -158,13 +148,7 @@
     font-size: 18px;
     line-height: calc(22 / 18);
     letter-spacing: 0.02em;
-
-
-
-
     color: var(--accent-color);
-
-
 }
 
 

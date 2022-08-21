@@ -8,10 +8,8 @@
     gap: 30px;
 
     @media screen and (min-width: 1200px) {
-        display: flex;
         justify-content: space-between;
     }
-
 
     @extend %list;
 }
@@ -30,7 +28,6 @@
     @media screen and (min-width: 1200px) {
         flex-basis: 170px;
     }
-
 }
 
 .clients-section__link {

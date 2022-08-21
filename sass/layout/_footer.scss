@@ -2,13 +2,6 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--background-footer);
-
-    @media screen and (min-width: 1200px) {
-        padding-top: 60px;
-        padding-bottom: 60px;
-        background-color: var(--background-footer);
-    }
-
 }
 
 .footer-box {
@@ -16,8 +9,6 @@
         display: flex;
         align-items: baseline;
     }
-
-
 }
 
 .wrapper {
@@ -31,6 +22,4 @@
     @media screen and (min-width: 1200px) {
         display: flex;
     }
-
-
 }

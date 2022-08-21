@@ -3,26 +3,25 @@
 
     @media screen and (min-width: 768px) {
         display: block;
-        margin-left: 84px;
-        margin-right: 0;
-
+        margin-left: auto;
 
         @media screen and (min-width: 1200px) {
             display: flex;
-            margin-left: auto;
         }
     }
-
 
     @extend %list;
 }
 
 .contacts__item:not(:last-child) {
 
+    @media screen and (min-width: 768px) {
+        margin-bottom: 10px;
+    }
+
     @media screen and (min-width: 1200px) {
         margin-right: 50px;
     }
-
 }
 
 .contacts__icon {
@@ -60,8 +59,6 @@
         display: block;
         padding-top: 32px;
         padding-bottom: 32px;
-
-
     }
 
     @extend %link;

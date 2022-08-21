@@ -61,6 +61,20 @@
             >
           </li>
         </ul>
+        <button
+          class="menu-toggle js-open-menu"
+          type="button"
+          aria-label="Переключатель мобильного меню"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="" width="24" height="16">
+            <use
+              class="button-menu__burger"
+              href="./images/icons.svg#icon-menu_top"
+            ></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -84,12 +98,14 @@
             <li class="page-nav__item">
               <a
                 href="./index.html"
-                class="current--mobile page-nav__link page-nav__link--studio"
+                class="page-nav__link page-nav__link--studio"
                 >Студия</a
               >
             </li>
             <li class="page-nav__item">
-              <a href="./portfolio.html" class="page-nav__link">Портфолио</a>
+              <a href="./portfolio.html" class="current--mobile page-nav__link"
+                >Портфолио</a
+              >
             </li>
             <li class="page-nav__item">
               <a href="" class="page-nav__link">Контакты</a>

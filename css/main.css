@@ -99,11 +99,20 @@ p {
 .title {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
-  color: var(--title-text-color);
-  font-size: 36px;
-  line-height: 1.17;
+  margin-bottom: 30px;
+  font-size: 28px;
+  line-height: 1.1785714286;
   text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+@media screen and (min-width: 1200px) {
+  .title {
+    margin-bottom: 50px;
+    color: var(--title-text-color);
+    font-size: 36px;
+    line-height: 1.17;
+  }
 }
 
 .button {
@@ -696,6 +705,7 @@ p {
 @media screen and (min-width: 1200px) {
   .footer-label__input {
     width: 358px;
+    margin-right: 12px;
   }
 }
 
@@ -846,11 +856,17 @@ p {
 }
 
 .thumb__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
-  height: 146px;
   border-right: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
@@ -869,7 +885,7 @@ p {
   position: absolute;
   content: "";
   width: 100%;
-  height: 294px;
+  height: 100%;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1143,6 +1159,8 @@ p {
 }
 @media screen and (min-width: 1200px) {
   .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Hero/Img@1x_lg.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Hero/Img@1x_lg.jpg);
   }
@@ -1252,11 +1270,13 @@ p {
   }
 }
 
-.advantage-section__item {
-  max-width: 450px;
-}
-.advantage-section__item:not(:last-child) {
-  margin-bottom: 30px;
+@media screen and (max-width: 767px) {
+  .advantage-section__item {
+    max-width: 450px;
+  }
+  .advantage-section__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 @media screen and (min-width: 768px) {
   .advantage-section__item {
@@ -1393,23 +1413,20 @@ p {
 
 .card-content {
   max-width: 450px;
+  padding-top: 30px;
   padding-bottom: 24px;
+  background-color: #FFFFFF;
 }
 @media screen and (min-width: 1200px) {
   .card-content {
     width: 270px;
-    padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
-    background-color: #FFFFFF;
   }
 }
 
-.team-section__image {
-  margin-bottom: 30px;
-}
 @media screen and (min-width: 1200px) {
   .team-section__image {
     margin-bottom: 0;
@@ -1548,6 +1565,11 @@ p {
 .address__list {
   margin-bottom: 60px;
 }
+@media screen and (min-width: 1200px) {
+  .address__list {
+    margin-bottom: 0px;
+  }
+}
 
 .address-box {
   text-align: center;
@@ -1572,25 +1594,12 @@ p {
   color: #FFFFFF;
   font-style: normal;
   font-size: var(--fontsize-main);
-  line-height: 1.71px;
+  line-height: 1.71;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address__link:hover, .address__link:focus {
   color: var(--accent-color);
-}
-@media screen and (min-width: 1200px) {
-  .address__link {
-    color: #FFFFFF;
-    font-style: normal;
-    font-size: var(--fontsize-main);
-    line-height: 1.71px;
-    -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .address__link:hover, .address__link:focus {
-    color: var(--accent-color);
-  }
 }
 
 .address__link--color {

@@ -66,25 +66,25 @@
 
 .card-content {
     max-width: 450px;
+    padding-top: 30px;
     padding-bottom: 24px;
-
+    background-color: #FFFFFF;
 
 
     @media screen and (min-width: 1200px) {
         width: 270px;
-        padding-top: 30px;
         padding-bottom: 30px;
         padding-left: 15px;
         padding-right: 15px;
         text-align: center;
 
-        background-color: #FFFFFF;
+
     }
 }
 
 .team-section__image {
     @extend %image;
-    margin-bottom: 30px;
+
 
     @media screen and (min-width: 1200px) {
         margin-bottom: 0;
